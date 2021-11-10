@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.nav{
+    width: 100%;
+    height: 5vh;
+    /* padding-left: 10vw;
+    padding-right: 10vw; */
+    background-color: rgb(21, 70, 122);
+    color: whitesmoke;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    overflow: "hidden";
+}
+.nav .content{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+div.theme{
+    margin-right: 45px;
+    background-color: white;
+    padding: 2px;
+    border-radius: 10px;
+    /* content:url(https://cdn-icons.flaticon.com/png/512/1982/premium/1982571.png?token=exp=1636035320~hmac=270585178ceba321c2610f6704daa7e4); */
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    overflow:hidden;
+}
